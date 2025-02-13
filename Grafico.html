@@ -95,7 +95,7 @@
             // grafico inizia da 0x 0y
             ctx.moveTo(larghezza/15,altezza/1.155)
     
-            // Disegna grafico
+  
             for (let i in csv) {
                 i++
                 let effData = csv[i].split(",")
@@ -114,7 +114,6 @@
         canvas.fill();
     }
     
-    // funzione per la potenza del 10 del numero
     function getPow(numb) {
         return(Number(numb.toString().length))
     }
